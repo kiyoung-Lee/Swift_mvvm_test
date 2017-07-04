@@ -83,6 +83,7 @@
 				08C6FD511F0A6CD2009C0EA5 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		08C6FD511F0A6CD2009C0EA5 /* Products */ = {
 			isa = PBXGroup;
@@ -505,6 +506,7 @@
 				08C6FD7A1F0A6CD2009C0EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08C6FD7B1F0A6CD2009C0EA5 /* Build configuration list for PBXNativeTarget "MVVM_Pattern_TestTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +515,7 @@
 				08C6FD7D1F0A6CD2009C0EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08C6FD7E1F0A6CD2009C0EA5 /* Build configuration list for PBXNativeTarget "MVVM_Pattern_TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +524,7 @@
 				08C6FD801F0A6CD2009C0EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
