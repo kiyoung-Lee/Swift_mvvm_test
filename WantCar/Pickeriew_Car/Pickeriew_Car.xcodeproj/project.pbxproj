@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08876AA71F0DD0C100854F7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08876AA61F0DD0C100854F7B /* AppDelegate.swift */; };
+		08876AA91F0DD0C100854F7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08876AA81F0DD0C100854F7B /* ViewController.swift */; };
+		08876AAC1F0DD0C100854F7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08876AAA1F0DD0C100854F7B /* Main.storyboard */; };
+		08876AAE1F0DD0C100854F7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08876AAD1F0DD0C100854F7B /* Assets.xcassets */; };
+		08876AB11F0DD0C100854F7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08876AAF1F0DD0C100854F7B /* LaunchScreen.storyboard */; };
+		08876ABC1F0DD0C100854F7B /* Pickeriew_CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08876ABB1F0DD0C100854F7B /* Pickeriew_CarTests.swift */; };
+		08876AC71F0DD0C100854F7B /* Pickeriew_CarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08876AC61F0DD0C100854F7B /* Pickeriew_CarUITests.swift */; };
+		08876ADE1F0DD12900854F7B /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 08876AD61F0DD12900854F7B /* background.jpeg */; };
+		08876ADF1F0DD12900854F7B /* lamborghini-aventador.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08876AD71F0DD12900854F7B /* lamborghini-aventador.jpg */; };
+		08876AE01F0DD12900854F7B /* lamborghini-huracan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08876AD81F0DD12900854F7B /* lamborghini-huracan.jpg */; };
+		08876AE11F0DD12900854F7B /* lamborghini-veneno.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08876AD91F0DD12900854F7B /* lamborghini-veneno.jpg */; };
+		08876AE21F0DD12900854F7B /* porsche-911.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08876ADA1F0DD12900854F7B /* porsche-911.jpg */; };
+		08876AE31F0DD12900854F7B /* porsche-boxter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08876ADB1F0DD12900854F7B /* porsche-boxter.jpg */; };
+		08876AE41F0DD12900854F7B /* tesla-model-s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08876ADC1F0DD12900854F7B /* tesla-model-s.jpg */; };
+		08876AE51F0DD12900854F7B /* tesla-model-x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08876ADD1F0DD12900854F7B /* tesla-model-x.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08876AB81F0DD0C100854F7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08876A9B1F0DD0C100854F7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08876AA21F0DD0C100854F7B;
+			remoteInfo = Pickeriew_Car;
+		};
+		08876AC31F0DD0C100854F7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08876A9B1F0DD0C100854F7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08876AA21F0DD0C100854F7B;
+			remoteInfo = Pickeriew_Car;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08876AA31F0DD0C100854F7B /* Pickeriew_Car.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickeriew_Car.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08876AA61F0DD0C100854F7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08876AA81F0DD0C100854F7B /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
+		08876AAB1F0DD0C100854F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08876AAD1F0DD0C100854F7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08876AB01F0DD0C100854F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08876AB21F0DD0C100854F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08876AB71F0DD0C100854F7B /* Pickeriew_CarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pickeriew_CarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08876ABB1F0DD0C100854F7B /* Pickeriew_CarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickeriew_CarTests.swift; sourceTree = "<group>"; };
+		08876ABD1F0DD0C100854F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08876AC21F0DD0C100854F7B /* Pickeriew_CarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pickeriew_CarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08876AC61F0DD0C100854F7B /* Pickeriew_CarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickeriew_CarUITests.swift; sourceTree = "<group>"; };
+		08876AC81F0DD0C100854F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08876AD61F0DD12900854F7B /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
+		08876AD71F0DD12900854F7B /* lamborghini-aventador.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lamborghini-aventador.jpg"; sourceTree = "<group>"; };
+		08876AD81F0DD12900854F7B /* lamborghini-huracan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lamborghini-huracan.jpg"; sourceTree = "<group>"; };
+		08876AD91F0DD12900854F7B /* lamborghini-veneno.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lamborghini-veneno.jpg"; sourceTree = "<group>"; };
+		08876ADA1F0DD12900854F7B /* porsche-911.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "porsche-911.jpg"; sourceTree = "<group>"; };
+		08876ADB1F0DD12900854F7B /* porsche-boxter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "porsche-boxter.jpg"; sourceTree = "<group>"; };
+		08876ADC1F0DD12900854F7B /* tesla-model-s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tesla-model-s.jpg"; sourceTree = "<group>"; };
+		08876ADD1F0DD12900854F7B /* tesla-model-x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tesla-model-x.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08876AA01F0DD0C100854F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08876AB41F0DD0C100854F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08876ABF1F0DD0C100854F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08876A9A1F0DD0C100854F7B = {
+			isa = PBXGroup;
+			children = (
+				08876AA51F0DD0C100854F7B /* Pickeriew_Car */,
+				08876ABA1F0DD0C100854F7B /* Pickeriew_CarTests */,
+				08876AC51F0DD0C100854F7B /* Pickeriew_CarUITests */,
+				08876AA41F0DD0C100854F7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08876AA41F0DD0C100854F7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08876AA31F0DD0C100854F7B /* Pickeriew_Car.app */,
+				08876AB71F0DD0C100854F7B /* Pickeriew_CarTests.xctest */,
+				08876AC21F0DD0C100854F7B /* Pickeriew_CarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08876AA51F0DD0C100854F7B /* Pickeriew_Car */ = {
+			isa = PBXGroup;
+			children = (
+				08876AD41F0DD11900854F7B /* Resource */,
+				08876AA61F0DD0C100854F7B /* AppDelegate.swift */,
+				08876AA81F0DD0C100854F7B /* ViewController.swift */,
+				08876AAA1F0DD0C100854F7B /* Main.storyboard */,
+				08876AAD1F0DD0C100854F7B /* Assets.xcassets */,
+				08876AAF1F0DD0C100854F7B /* LaunchScreen.storyboard */,
+				08876AB21F0DD0C100854F7B /* Info.plist */,
+			);
+			path = Pickeriew_Car;
+			sourceTree = "<group>";
+		};
+		08876ABA1F0DD0C100854F7B /* Pickeriew_CarTests */ = {
+			isa = PBXGroup;
+			children = (
+				08876ABB1F0DD0C100854F7B /* Pickeriew_CarTests.swift */,
+				08876ABD1F0DD0C100854F7B /* Info.plist */,
+			);
+			path = Pickeriew_CarTests;
+			sourceTree = "<group>";
+		};
+		08876AC51F0DD0C100854F7B /* Pickeriew_CarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08876AC61F0DD0C100854F7B /* Pickeriew_CarUITests.swift */,
+				08876AC81F0DD0C100854F7B /* Info.plist */,
+			);
+			path = Pickeriew_CarUITests;
+			sourceTree = "<group>";
+		};
+		08876AD41F0DD11900854F7B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				08876AD51F0DD12900854F7B /* Section-10-2.SelectCarImages */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		08876AD51F0DD12900854F7B /* Section-10-2.SelectCarImages */ = {
+			isa = PBXGroup;
+			children = (
+				08876AD61F0DD12900854F7B /* background.jpeg */,
+				08876AD71F0DD12900854F7B /* lamborghini-aventador.jpg */,
+				08876AD81F0DD12900854F7B /* lamborghini-huracan.jpg */,
+				08876AD91F0DD12900854F7B /* lamborghini-veneno.jpg */,
+				08876ADA1F0DD12900854F7B /* porsche-911.jpg */,
+				08876ADB1F0DD12900854F7B /* porsche-boxter.jpg */,
+				08876ADC1F0DD12900854F7B /* tesla-model-s.jpg */,
+				08876ADD1F0DD12900854F7B /* tesla-model-x.jpg */,
+			);
+			path = "Section-10-2.SelectCarImages";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08876AA21F0DD0C100854F7B /* Pickeriew_Car */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08876ACB1F0DD0C100854F7B /* Build configuration list for PBXNativeTarget "Pickeriew_Car" */;
+			buildPhases = (
+				08876A9F1F0DD0C100854F7B /* Sources */,
+				08876AA01F0DD0C100854F7B /* Frameworks */,
+				08876AA11F0DD0C100854F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pickeriew_Car;
+			productName = Pickeriew_Car;
+			productReference = 08876AA31F0DD0C100854F7B /* Pickeriew_Car.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08876AB61F0DD0C100854F7B /* Pickeriew_CarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08876ACE1F0DD0C100854F7B /* Build configuration list for PBXNativeTarget "Pickeriew_CarTests" */;
+			buildPhases = (
+				08876AB31F0DD0C100854F7B /* Sources */,
+				08876AB41F0DD0C100854F7B /* Frameworks */,
+				08876AB51F0DD0C100854F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08876AB91F0DD0C100854F7B /* PBXTargetDependency */,
+			);
+			name = Pickeriew_CarTests;
+			productName = Pickeriew_CarTests;
+			productReference = 08876AB71F0DD0C100854F7B /* Pickeriew_CarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08876AC11F0DD0C100854F7B /* Pickeriew_CarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08876AD11F0DD0C100854F7B /* Build configuration list for PBXNativeTarget "Pickeriew_CarUITests" */;
+			buildPhases = (
+				08876ABE1F0DD0C100854F7B /* Sources */,
+				08876ABF1F0DD0C100854F7B /* Frameworks */,
+				08876AC01F0DD0C100854F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08876AC41F0DD0C100854F7B /* PBXTargetDependency */,
+			);
+			name = Pickeriew_CarUITests;
+			productName = Pickeriew_CarUITests;
+			productReference = 08876AC21F0DD0C100854F7B /* Pickeriew_CarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08876A9B1F0DD0C100854F7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = KiyoungLee;
+				TargetAttributes = {
+					08876AA21F0DD0C100854F7B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = J9EKY54ZWF;
+						ProvisioningStyle = Automatic;
+					};
+					08876AB61F0DD0C100854F7B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = J9EKY54ZWF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08876AA21F0DD0C100854F7B;
+					};
+					08876AC11F0DD0C100854F7B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = J9EKY54ZWF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08876AA21F0DD0C100854F7B;
+					};
+				};
+			};
+			buildConfigurationList = 08876A9E1F0DD0C100854F7B /* Build configuration list for PBXProject "Pickeriew_Car" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08876A9A1F0DD0C100854F7B;
+			productRefGroup = 08876AA41F0DD0C100854F7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08876AA21F0DD0C100854F7B /* Pickeriew_Car */,
+				08876AB61F0DD0C100854F7B /* Pickeriew_CarTests */,
+				08876AC11F0DD0C100854F7B /* Pickeriew_CarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08876AA11F0DD0C100854F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08876AB11F0DD0C100854F7B /* LaunchScreen.storyboard in Resources */,
+				08876AE41F0DD12900854F7B /* tesla-model-s.jpg in Resources */,
+				08876AE01F0DD12900854F7B /* lamborghini-huracan.jpg in Resources */,
+				08876AE21F0DD12900854F7B /* porsche-911.jpg in Resources */,
+				08876AAE1F0DD0C100854F7B /* Assets.xcassets in Resources */,
+				08876AAC1F0DD0C100854F7B /* Main.storyboard in Resources */,
+				08876ADE1F0DD12900854F7B /* background.jpeg in Resources */,
+				08876ADF1F0DD12900854F7B /* lamborghini-aventador.jpg in Resources */,
+				08876AE11F0DD12900854F7B /* lamborghini-veneno.jpg in Resources */,
+				08876AE31F0DD12900854F7B /* porsche-boxter.jpg in Resources */,
+				08876AE51F0DD12900854F7B /* tesla-model-x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08876AB51F0DD0C100854F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08876AC01F0DD0C100854F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08876A9F1F0DD0C100854F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08876AA91F0DD0C100854F7B /* ViewController.swift in Sources */,
+				08876AA71F0DD0C100854F7B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08876AB31F0DD0C100854F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08876ABC1F0DD0C100854F7B /* Pickeriew_CarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08876ABE1F0DD0C100854F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08876AC71F0DD0C100854F7B /* Pickeriew_CarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08876AB91F0DD0C100854F7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08876AA21F0DD0C100854F7B /* Pickeriew_Car */;
+			targetProxy = 08876AB81F0DD0C100854F7B /* PBXContainerItemProxy */;
+		};
+		08876AC41F0DD0C100854F7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08876AA21F0DD0C100854F7B /* Pickeriew_Car */;
+			targetProxy = 08876AC31F0DD0C100854F7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08876AAA1F0DD0C100854F7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08876AAB1F0DD0C100854F7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08876AAF1F0DD0C100854F7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08876AB01F0DD0C100854F7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08876AC91F0DD0C100854F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08876ACA1F0DD0C100854F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08876ACC1F0DD0C100854F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9EKY54ZWF;
+				INFOPLIST_FILE = Pickeriew_Car/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.image.Pickeriew-Car";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		08876ACD1F0DD0C100854F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9EKY54ZWF;
+				INFOPLIST_FILE = Pickeriew_Car/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.image.Pickeriew-Car";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		08876ACF1F0DD0C100854F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J9EKY54ZWF;
+				INFOPLIST_FILE = Pickeriew_CarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.image.Pickeriew-CarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pickeriew_Car.app/Pickeriew_Car";
+			};
+			name = Debug;
+		};
+		08876AD01F0DD0C100854F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J9EKY54ZWF;
+				INFOPLIST_FILE = Pickeriew_CarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.image.Pickeriew-CarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pickeriew_Car.app/Pickeriew_Car";
+			};
+			name = Release;
+		};
+		08876AD21F0DD0C100854F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J9EKY54ZWF;
+				INFOPLIST_FILE = Pickeriew_CarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.image.Pickeriew-CarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pickeriew_Car;
+			};
+			name = Debug;
+		};
+		08876AD31F0DD0C100854F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J9EKY54ZWF;
+				INFOPLIST_FILE = Pickeriew_CarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.image.Pickeriew-CarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pickeriew_Car;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08876A9E1F0DD0C100854F7B /* Build configuration list for PBXProject "Pickeriew_Car" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08876AC91F0DD0C100854F7B /* Debug */,
+				08876ACA1F0DD0C100854F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08876ACB1F0DD0C100854F7B /* Build configuration list for PBXNativeTarget "Pickeriew_Car" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08876ACC1F0DD0C100854F7B /* Debug */,
+				08876ACD1F0DD0C100854F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08876ACE1F0DD0C100854F7B /* Build configuration list for PBXNativeTarget "Pickeriew_CarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08876ACF1F0DD0C100854F7B /* Debug */,
+				08876AD01F0DD0C100854F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08876AD11F0DD0C100854F7B /* Build configuration list for PBXNativeTarget "Pickeriew_CarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08876AD21F0DD0C100854F7B /* Debug */,
+				08876AD31F0DD0C100854F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08876A9B1F0DD0C100854F7B /* Project object */;
+}
