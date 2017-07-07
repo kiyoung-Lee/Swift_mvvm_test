@@ -10,10 +10,12 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, XMLParserDelegate {
 	
-	var datalist:[[String:String]] = []
-	var detaildata:[String:String] = [:]
-	var elementTemp:String = ""
-	var blank:Bool = false
+	var datalist = NSDictionary()
+	
+//	var datalist:[[String:String]] = []
+//	var detaildata:[String:String] = [:]
+//	var elementTemp:String = ""
+//	var blank:Bool = false
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -31,66 +33,112 @@ class ViewController: UIViewController, UITableViewDataSource, XMLParserDelegate
 		//
 		//		datalist = [dic1, dic2, dic3, dic4, dic5, dic6, dic7, dic8, dic9, dic10, dic11]
 		
-		let baseUrl = "https://raw.githubusercontent.com/ChoiJinYoung/iphonewithswift2/master/weather.xml"
-		let parser = XMLParser(contentsOf: URL(string: baseUrl)!)
+		let baseUrl = URL(string: "https://raw.githubusercontent.com/ChoiJinYoung/iphonewithswift2/master/weather.json")
 		
-		parser!.delegate = self
-		parser!.parse()
-	}
-	
-	func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String] = [:]) {
-//		print("didElement : \(elementName)")
-		elementTemp = elementName
-		blank = true
-	}
-	
-	func parser(_ parser: XMLParser, foundCharacters string: String) {
-		if blank == true && elementTemp != "local" && elementTemp != "weatherinfo" {
-//			print("foundCharecter: \(string)")
-			detaildata[elementTemp] = string
+		do{
+			self.datalist = try JSONSerialization.jsonObject(with: Data(contentsOf: baseUrl!), options: JSONSerialization.ReadingOptions.mutableContainers) as! NSDictionary
+			
+			
+		} catch {
+			print("Error loading data")
 		}
+		
+		print(self.datalist)
+		
+//		let className = "\(type(of:(datalist["weatherinfo"] as! NSDictionary)["local"]) as! NSArray))"
+		
+		let weatherDic = datalist["weatherinfo"] as! NSDictionary
+		let localDic = weatherDic["local"] as! NSArray
+		print("className : \(localDic.count)")
+		
+//		let parser = XMLParser(contentsOf: URL(string: baseUrl)!)
+		
+//		parser!.delegate = self
+//		parser!.parse()
 	}
 	
-	func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
-		if elementName == "local"{
-			datalist += [detaildata]
-			print(detaildata)
-		}
-		blank = false
-//		print("didEndelement : \(elementName)")
-	}
+//	func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String] = [:]) {
+////		print("didElement : \(elementName)")
+//		elementTemp = elementName
+//		blank = true
+//	}
+//	
+//	func parser(_ parser: XMLParser, foundCharacters string: String) {
+//		if blank == true && elementTemp != "local" && elementTemp != "weatherinfo" {
+////			print("foundCharecter: \(string)")
+//			detaildata[elementTemp] = string
+//		}
+//	}
+//	
+//	func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
+//		if elementName == "local"{
+//			datalist += [detaildata]
+//			print(detaildata)
+//		}
+//		blank = false
+////		print("didEndelement : \(elementName)")
+//	}
 	
 	
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 		let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! WeatherCell
 		
-		var dicTemp = datalist[indexPath.row]
+		let weatherDic = datalist["weatherinfo"] as! NSDictionary
+		let localDic = weatherDic["local"] as! NSArray
+		let rowItem = localDic[indexPath.row] as! NSDictionary
 		
-		cell.countryLabel!.text = dicTemp["country"]
+		let country = rowItem["country"] as? String
+		let temperature = rowItem["temperature"] as? String
+		let weather = rowItem["weather"] as? String
 		
-		let weatherStr = dicTemp["weather"]
+		cell.countryLabel!.text = country
+		cell.temperatureLabel!.text = temperature
+		cell.weatherLabel!.text = weather
 		
-		cell.weatherLabel!.text = weatherStr
-		
-		cell.temperatureLabel!.text = dicTemp["temperature"];
-		
-		if weatherStr == "맑음"{
+		if weather == "맑음"{
 			cell.imgView!.image = UIImage(named: "sunny.png")
-		} else if weatherStr == "비"{
+		} else if weather == "비"{
 			cell.imgView!.image = UIImage(named: "rainy.png")
-		} else if weatherStr == "눈"{
+		} else if weather == "눈"{
 			cell.imgView!.image = UIImage(named: "snow.png")
-		} else if weatherStr == "흐림"{
+		} else if weather == "흐림"{
 			cell.imgView!.image = UIImage(named: "cloudy.png")
 		} else {
 			cell.imgView!.image = UIImage(named: "blizzard.png")
 		}
 		
+		
+//		var dicTemp = datalist[indexPath.row]
+//		
+//		cell.countryLabel!.text = dicTemp["country"]
+//		
+//		let weatherStr = dicTemp["weather"]
+//		
+//		cell.weatherLabel!.text = weatherStr
+//		
+//		cell.temperatureLabel!.text = dicTemp["temperature"];
+//		
+//		if weatherStr == "맑음"{
+//			cell.imgView!.image = UIImage(named: "sunny.png")
+//		} else if weatherStr == "비"{
+//			cell.imgView!.image = UIImage(named: "rainy.png")
+//		} else if weatherStr == "눈"{
+//			cell.imgView!.image = UIImage(named: "snow.png")
+//		} else if weatherStr == "흐림"{
+//			cell.imgView!.image = UIImage(named: "cloudy.png")
+//		} else {
+//			cell.imgView!.image = UIImage(named: "blizzard.png")
+//		}
+		
 		return cell
 	}
 	
 	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		return datalist.count
+		
+		let weatherDic = datalist["weatherinfo"] as! NSDictionary
+		let localDic = weatherDic["local"] as! NSArray
+		return localDic.count
+//		return datalist.count
 	}
 
 
