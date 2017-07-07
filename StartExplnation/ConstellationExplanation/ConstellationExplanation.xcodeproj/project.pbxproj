@@ -26,6 +26,7 @@
 		08876C191F0E5B0100854F7B /* horsestar.png in Resources */ = {isa = PBXBuildFile; fileRef = 08876C0D1F0E5B0100854F7B /* horsestar.png */; };
 		08876C1A1F0E5B0100854F7B /* rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = 08876C0E1F0E5B0100854F7B /* rabbit.png */; };
 		08876C1B1F0E5B0100854F7B /* rabbitstar.png in Resources */ = {isa = PBXBuildFile; fileRef = 08876C0F1F0E5B0100854F7B /* rabbitstar.png */; };
+		08876C1D1F0F1CD400854F7B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08876C1C1F0F1CD400854F7B /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		08876C0D1F0E5B0100854F7B /* horsestar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horsestar.png; sourceTree = "<group>"; };
 		08876C0E1F0E5B0100854F7B /* rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rabbit.png; sourceTree = "<group>"; };
 		08876C0F1F0E5B0100854F7B /* rabbitstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rabbitstar.png; sourceTree = "<group>"; };
+		08876C1C1F0F1CD400854F7B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				08876BD41F0E5A8900854F7B /* AppDelegate.swift */,
 				08876BD61F0E5A8900854F7B /* ViewController.swift */,
 				08876BD81F0E5A8900854F7B /* Main.storyboard */,
+				08876C1C1F0F1CD400854F7B /* DetailViewController.swift */,
 				08876BDB1F0E5A8900854F7B /* Assets.xcassets */,
 				08876BDD1F0E5A8900854F7B /* LaunchScreen.storyboard */,
 				08876BE01F0E5A8900854F7B /* Info.plist */,
@@ -326,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08876C1D1F0F1CD400854F7B /* DetailViewController.swift in Sources */,
 				08876BD71F0E5A8900854F7B /* ViewController.swift in Sources */,
 				08876BD51F0E5A8900854F7B /* AppDelegate.swift in Sources */,
 			);
