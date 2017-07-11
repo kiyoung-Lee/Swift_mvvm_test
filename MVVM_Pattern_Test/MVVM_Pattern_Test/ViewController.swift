@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import SwiftEventBus
 
 class ViewController: UIViewController {
 
+	var viewModel:ViewModelInput!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		viewModel = MainViewModel().inputs;
 	}
 
 	override func didReceiveMemoryWarning() {
@@ -20,6 +23,11 @@ class ViewController: UIViewController {
 		// Dispose of any resources that can be recreated.
 	}
 
-
+	
+	func testFunction() {
+		SwiftEventBus.onMainThread(self, name: "someEventName") { result in
+			
+		}
+	}
 }
 
