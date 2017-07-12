@@ -14,9 +14,17 @@ public class EventRowCell:UITableViewCell {
 	@IBOutlet weak var dateLabel: UILabel!
 	@IBOutlet weak var contentsLabel: UILabel!
 	
-	func bindView(viewModel: EventDataModel){
-		
-		contentsLabel.text = viewModel.banner_title
-		dateLabel.text = viewModel.banner_start_date
+	var dataContext:EventRowViewModel? = nil {
+		didSet{
+			
+			guard dataContext != nil else {
+				dateLabel.text = ""
+				contentsLabel.text = ""
+				return
+			}
+			
+			dateLabel.text = dataContext?.banner_start_date
+			contentsLabel.text = dataContext?.banner_title
+		}
 	}
 }

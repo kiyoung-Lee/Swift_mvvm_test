@@ -14,13 +14,19 @@ class ViewController: UIViewController {
 	
 	@IBOutlet weak var eventListView: UITableView!
 
-	var viewModel:MainViewModel!
+	var viewModel:EventListViewModel{
+		return ViewModelLocator.eventModel.eventList
+	}
+	
+	let repository:MainRepository = MainRepository()
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		viewModel = MainViewModel()
-		
-		SwiftEventBus.onMainThread(self, name: "eventListNotify") { result in
+				
+		repository.getEventData()
+		SwiftEventBus.onMainThread(self, name: "loadDataEvent") { result in
+			let eventJSONArray = result.object as? [[String: Any]] ?? []
+			self.viewModel.eventList = [EventRowViewModel](JSONArray: eventJSONArray) ?? []
 			self.eventListView.reloadData()
 		}
 	}
@@ -43,7 +49,9 @@ extension ViewController: UITableViewDataSource {
 	
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 		let row = tableView.dequeueReusableCell(withIdentifier: "default", for: indexPath) as! EventRowCell
-		row.bindView(viewModel: viewModel.eventList[indexPath.row])
+		
+		let rowViewModel = viewModel.eventList[indexPath.row]
+		row.dataContext = rowViewModel		
 		return row
 	}
 }

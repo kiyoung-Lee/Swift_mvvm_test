@@ -1,15 +1,14 @@
 //
-//  DataModel.swift
+//  EventRowViewModel.swift
 //  MVVM_Pattern_Test
 //
-//  Created by MAPSSI on 11/07/2017.
+//  Created by MAPSSI on 12/07/2017.
 //  Copyright © 2017 MAPSSI. All rights reserved.
 //
 
 import ObjectMapper
 
-
-public class EventDataModel: Mappable{
+class EventRowViewModel: Mappable {
 	
 	var banner_idx:Int?
 	var banner_title:String?
@@ -31,6 +30,6 @@ public class EventDataModel: Mappable{
 		banner_upload_date <- map["banner_upload_date"]
 		banner_start_date <- map["banner_start_date"]
 		banner_end_date <- map["banner_end_date"]
-		
 	}
+	
 }
