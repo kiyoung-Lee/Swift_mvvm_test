@@ -8,6 +8,7 @@ target 'MVVM_Pattern_Test' do
   # Pods for MVVM_Pattern_Test
 		pod 'SwiftEventBus', :tag => '2.2.0', :git => 'https://github.com/cesarferreira/SwiftEventBus.git'
 	pod 'ObjectMapper'
+	pod 'Kingfisher'
 	pod 'Alamofire'
 
   target 'MVVM_Pattern_TestTests' do

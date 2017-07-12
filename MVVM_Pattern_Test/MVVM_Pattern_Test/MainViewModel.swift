@@ -9,16 +9,12 @@
 import Foundation
 import SwiftEventBus
 
-protocol ViewModelInput {}
 
-protocol ViewModelType {
-	var inputs: ViewModelInput { get }
-}
 
-class MainViewModel:ViewModelInput, ViewModelType{
+class MainViewModel{
 	
 	let repository:MainRepositoryProtocol
-	var evenList: [EventDataModel] = []
+	var eventList: [EventDataModel] = []
 	
 	init() {
 		repository = MainRepository()
@@ -29,10 +25,8 @@ class MainViewModel:ViewModelInput, ViewModelType{
 		repository.getEventData()
 		SwiftEventBus.onMainThread(self, name: "loadDataEvent") { result in
 			let eventJSONArray = result.object as? [[String: Any]] ?? []
-			self.evenList = [EventDataModel].init(JSONArray: eventJSONArray) ?? [];
-			SwiftEventBus.post("someEventName")
-		}		
+			self.eventList = [EventDataModel].init(JSONArray: eventJSONArray) ?? [];
+			SwiftEventBus.post("eventListNotify")
+		}
 	}
-	
-	var inputs: ViewModelInput { return self}
 }

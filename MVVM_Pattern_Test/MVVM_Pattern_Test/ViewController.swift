@@ -8,26 +8,43 @@
 
 import UIKit
 import SwiftEventBus
+import Alamofire
 
 class ViewController: UIViewController {
+	
+	@IBOutlet weak var eventListView: UITableView!
 
-	var viewModel:ViewModelInput!
+	var viewModel:MainViewModel!
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		viewModel = MainViewModel().inputs;
+		viewModel = MainViewModel()
+		
+		SwiftEventBus.onMainThread(self, name: "eventListNotify") { result in
+			self.eventListView.reloadData()
+		}
 	}
 
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
 		// Dispose of any resources that can be recreated.
 	}
+}
 
+extension ViewController: UITableViewDataSource {
 	
-	func testFunction() {
-		SwiftEventBus.onMainThread(self, name: "someEventName") { result in
-			
-		}
+	func numberOfSections(in tableView: UITableView) -> Int {
+		return 1
+	}
+	
+	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+		return viewModel.eventList.count
+	}
+	
+	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+		let row = tableView.dequeueReusableCell(withIdentifier: "default", for: indexPath) as! EventRowCell
+		row.bindView(viewModel: viewModel.eventList[indexPath.row])
+		return row
 	}
 }
 

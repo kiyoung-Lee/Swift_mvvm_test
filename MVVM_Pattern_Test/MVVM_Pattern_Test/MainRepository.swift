@@ -32,5 +32,6 @@ class MainRepository:MainRepositoryProtocol{
 					SwiftEventBus.post("loadDataEvent", sender: eventJSONArray)
 				}
 		}
+		
 	}
 }
