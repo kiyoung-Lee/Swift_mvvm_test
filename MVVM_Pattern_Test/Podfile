@@ -6,19 +6,25 @@ target 'MVVM_Pattern_Test' do
   use_frameworks!
 
   # Pods for MVVM_Pattern_Test
-		pod 'SwiftEventBus', :tag => '2.2.0', :git => 'https://github.com/cesarferreira/SwiftEventBus.git'
+	pod 'SwiftEventBus', :tag => '2.2.0', :git => 'https://github.com/cesarferreira/SwiftEventBus.git'
 	pod 'ObjectMapper'
 	pod 'Kingfisher'
 	pod 'Alamofire'
+	pod 'RxSwift',    '~> 3.0'
+	pod 'RxCocoa',    '~> 3.0'
 
   target 'MVVM_Pattern_TestTests' do
     inherit! :search_paths
     # Pods for testing
+		pod 'RxSwift',    '~> 3.0'
+		pod 'RxCocoa',    '~> 3.0'
   end
 
   target 'MVVM_Pattern_TestUITests' do
     inherit! :search_paths
     # Pods for testing
+		pod 'RxSwift',    '~> 3.0'
+		pod 'RxCocoa',    '~> 3.0'
   end
 
 end

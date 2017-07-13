@@ -7,16 +7,54 @@
 //
 
 import ObjectMapper
+import RxSwift
 
 class EventRowViewModel: Mappable {
 	
-	var banner_idx:Int?
-	var banner_title:String?
-	var banner_image:String?
-	var banner_url:String?
-	var banner_upload_date:String?
-	var banner_start_date:String?
-	var banner_end_date:String?
+	private let _propertyChanged = PublishSubject<String>()
+	var propertyChanged: Observable<String> { return _propertyChanged }
+	
+	var banner_idx:Int? {
+		didSet{
+			_propertyChanged.onNext("banner_idx")
+		}
+	}
+	
+	var banner_title:String? {
+		didSet{
+			_propertyChanged.onNext("banner_title")
+		}
+	}
+	
+	var banner_image:String?{
+		didSet{
+			_propertyChanged.onNext("banner_image")
+		}
+	}
+	
+	var banner_url:String?{
+		didSet{
+			_propertyChanged.onNext("banner_url")
+		}
+	}
+	
+	var banner_upload_date:String?{
+		didSet{
+			_propertyChanged.onNext("banner_upload")
+		}
+	}
+	
+	var banner_start_date:String?{
+		didSet{
+			_propertyChanged.onNext("banner_start_date")
+		}
+	}
+	
+	var banner_end_date:String?{
+		didSet{
+			_propertyChanged.onNext("banner_end_date")
+		}
+	}
 	
 	public required init?(map: Map) {
 		

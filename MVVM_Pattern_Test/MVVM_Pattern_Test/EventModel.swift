@@ -13,6 +13,6 @@ class EventModel{
 	let eventList:EventListViewModel
 	
 	init(){
-		eventList = EventListViewModel(eventList: [])
+		eventList = EventListViewModel()
 	}
 }

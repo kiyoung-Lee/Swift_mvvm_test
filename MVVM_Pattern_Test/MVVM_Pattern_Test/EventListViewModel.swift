@@ -7,12 +7,28 @@
 //
 
 import Foundation
+import RxSwift
+import SwiftEventBus
 
 class EventListViewModel{
 	
-	var eventList: [EventRowViewModel] = []
+	private let _eventListChanged = PublishSubject<String>()
+	var eventListChanged: Observable<String> { return _eventListChanged }
 	
-	init(eventList:[EventRowViewModel]){
-		self.eventList = eventList
+	
+	let repository:MainRepository = MainRepository()
+	
+	var eventList: [EventRowViewModel] = [] {
+		didSet{
+			_eventListChanged.onNext("eventListChanged")
+		}
+	}
+	
+	func loadData(){
+		repository.getEventData()
+		SwiftEventBus.onMainThread(self, name: "loadDataEvent") { result in
+			let eventJSONArray = result.object as? [[String: Any]] ?? []
+			self.eventList = [EventRowViewModel](JSONArray: eventJSONArray) ?? []
+		}
 	}
 }
