@@ -1,0 +1,1060 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036E416C843D01FB59A128C568926589 /* Pods-StylingRequestViewTestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF6570A9C6C2E1C74EE34454B24D17B /* Pods-StylingRequestViewTestUITests-dummy.m */; };
+		03BC7C44A0DD8215B92B20511FEABCE1 /* BEMCheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E882F1A2FFBB52DC4C9FFA308E81BBD0 /* BEMCheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09EB71FEC2BEFC367575496304D5360C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		18F57873BAE949F334DA9D57D020B121 /* BEMAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C172164DCB73743D9FC1A2E985725FF1 /* BEMAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20909B18A454E0797F343764AD7FCA11 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D9CCB47F78BCAF0C7A78C9FFDE8A3 /* BEMCheckBoxGroup.m */; };
+		3F4B331558094E9EBADCB4BBE25519C0 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D801ABCACDDDD16C5D209EBA73E42130 /* BEMPathManager.m */; };
+		55CF856B8BA12BB2472B08B6D5D9125A /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C80BD7D3E230754038141028465F1E15 /* BEMCheckBox.m */; };
+		5C1FA022C13DDBBB8849FA9E89031086 /* Pods-StylingRequestViewTestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F85BB8BC22A62E0DEDE77F4EF530EA /* Pods-StylingRequestViewTestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E7E0B70C0D1CCD0AC694A99E8324ECD /* DLRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F95756751F0C081129FD1FA2A14D6DC /* DLRadioButton-dummy.m */; };
+		84116DD709725E60919846D7B1AF714B /* DLRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B130CA1F1D218C45FB489FF3F94EF7 /* DLRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A6B44636886520707544BC52CCD2ABF /* BEMPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A60655499B239BA192766E144D7B4AD /* BEMPathManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F2D8EC348F59816CFDEA65538E3E532 /* DLRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B1753A6DACE631B5AB95A056A6253661 /* DLRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA4BB3491719235D6A6B936A42146FD /* Pods-StylingRequestViewTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2827530FC7D08B8BEBF163108781E8 /* Pods-StylingRequestViewTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A28F07FAD3EB3AAB9EA8C1F1C9090BA /* Pods-StylingRequestViewTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBCBD534AEA502FB65705A4FC15960 /* Pods-StylingRequestViewTestTests-dummy.m */; };
+		9A8BC36CCD3769C0DCEB4213A5019BB7 /* BEMCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 30196B92B0930ADEA404F6946ED9A612 /* BEMCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A80BA46B97BD1273DAA97821F4DFB963 /* BEMCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCEC5DE2F39F82E3A287D392349F46D /* BEMCheckBox-dummy.m */; };
+		AC08ACC8E35090E01239B8163297A0EA /* BEMCheckBoxGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 173A89D23BD49D26ECB9EEBDCC5C450A /* BEMCheckBoxGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6988E28381FCC5D04082DD3969BD03F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BA6EFF0B0B68E348EC94F86BD1F68C04 /* Pods-StylingRequestViewTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC9A3628A1ACB624CA3E7252897423BF /* Pods-StylingRequestViewTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF5BB6C5CBF58128AE6C9AA5950F2AB1 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 735D33CC28D38AAF1310062BE7D3CE39 /* BEMAnimationManager.m */; };
+		C34DF3CEF0E3711DBF0F69C32EE0502A /* Pods-StylingRequestViewTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F64FF104F49760C646DBF337E4C0170B /* Pods-StylingRequestViewTest-dummy.m */; };
+		E2F6D519422E9833D3237E7D7F3FB7CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E46AF6AE0CD450A04CB85689A3E4F1B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EF2F59EEA3194DFCFB39352F4DA16D76 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E0CF6FCD3C5080424DECB78CDE2DA3 /* DLRadioButton.m */; };
+		FF5448C9373B98358D18337EDBE47DB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04581DF06F454E3C3FCFAABDF5792C92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6A77E2753C279F67F70C5C21D6FAE15;
+			remoteInfo = DLRadioButton;
+		};
+		17DCD9FD9F6F00E871DA080E43AF2C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC19A72FB7D1DB0B2CC5F6C5CF2400F4;
+			remoteInfo = BEMCheckBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B91ECA8D89FB3064733CA1BE27F533B /* Pods-StylingRequestViewTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StylingRequestViewTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		173A89D23BD49D26ECB9EEBDCC5C450A /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBoxGroup.h; path = Classes/BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		206FDC0DB84BEDEBAE5CDB5BF2B7A6B0 /* Pods-StylingRequestViewTestTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StylingRequestViewTestTests-frameworks.sh"; sourceTree = "<group>"; };
+		2104FF5F4FF9C5B156661436EC8F8185 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24453BA50845882B8A050B40CB4022C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29DF4787802796910DC859919E1401D4 /* Pods-StylingRequestViewTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StylingRequestViewTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2A43F9FACB70FDC34A98F832C62B0211 /* Pods-StylingRequestViewTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StylingRequestViewTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2DF727FEA8D1AE98E08FFCEA3B063B9A /* BEMCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BEMCheckBox.modulemap; sourceTree = "<group>"; };
+		30196B92B0930ADEA404F6946ED9A612 /* BEMCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBox.h; path = Classes/BEMCheckBox.h; sourceTree = "<group>"; };
+		33CD2BBCE39FCDA544151EBDBBD8261A /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
+		34941ACF969B6BC8CA518F0E6CDD5ACD /* Pods-StylingRequestViewTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StylingRequestViewTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A98A36FFD775943F897974EA3826727 /* Pods-StylingRequestViewTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StylingRequestViewTest.debug.xcconfig"; sourceTree = "<group>"; };
+		4B9933AACBCA7E533B258ACB09D84E1F /* Pods_StylingRequestViewTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StylingRequestViewTestUITests.framework; path = "Pods-StylingRequestViewTestUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2827530FC7D08B8BEBF163108781E8 /* Pods-StylingRequestViewTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StylingRequestViewTestTests-umbrella.h"; sourceTree = "<group>"; };
+		4E268ECBEAF8BB9416FC26D2B6E6FB9C /* Pods-StylingRequestViewTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StylingRequestViewTest.release.xcconfig"; sourceTree = "<group>"; };
+		568FC149142295E6C2F4AF8A5CCD9371 /* Pods_StylingRequestViewTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StylingRequestViewTestTests.framework; path = "Pods-StylingRequestViewTestTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E0CF6FCD3C5080424DECB78CDE2DA3 /* DLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = DLRadioButton/DLRadioButton.m; sourceTree = "<group>"; };
+		65E8CF27C5A75A0A3A7329EBE6B19A4C /* Pods-StylingRequestViewTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StylingRequestViewTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		684CBF172EAD2C5FCBA5CE8F4A35DB83 /* DLRadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.xcconfig; sourceTree = "<group>"; };
+		6BCEC5DE2F39F82E3A287D392349F46D /* BEMCheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEMCheckBox-dummy.m"; sourceTree = "<group>"; };
+		6C8A31F5557850C33B86E85BA687A904 /* Pods-StylingRequestViewTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-StylingRequestViewTestTests.modulemap"; sourceTree = "<group>"; };
+		735D33CC28D38AAF1310062BE7D3CE39 /* BEMAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMAnimationManager.m; path = Classes/BEMAnimationManager.m; sourceTree = "<group>"; };
+		7A60655499B239BA192766E144D7B4AD /* BEMPathManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMPathManager.h; path = Classes/BEMPathManager.h; sourceTree = "<group>"; };
+		7DE4806C97C5AF775BCC64A70EFD6257 /* Pods-StylingRequestViewTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StylingRequestViewTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7ECBCBD534AEA502FB65705A4FC15960 /* Pods-StylingRequestViewTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StylingRequestViewTestTests-dummy.m"; sourceTree = "<group>"; };
+		8415FF3B6C62762E1BA33A91ECA65DDD /* Pods-StylingRequestViewTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StylingRequestViewTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F6D9CCB47F78BCAF0C7A78C9FFDE8A3 /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBoxGroup.m; path = Classes/BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		8F95756751F0C081129FD1FA2A14D6DC /* DLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRadioButton-dummy.m"; sourceTree = "<group>"; };
+		8FF1A7D0D7B6E7D9B3751D36B1C99C7C /* Pods-StylingRequestViewTestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-StylingRequestViewTestUITests.modulemap"; sourceTree = "<group>"; };
+		91320BDE6139D4886A2BC7784DA50466 /* Pods-StylingRequestViewTestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StylingRequestViewTestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94824CCBDB4D359D8CC18CE12F20CEF5 /* Pods-StylingRequestViewTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-StylingRequestViewTest.modulemap"; sourceTree = "<group>"; };
+		9929D1C4547D2515A96CCC80B4E15F82 /* DLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-prefix.pch"; sourceTree = "<group>"; };
+		9B1C14E9581D80D84B0D0B4367CACFEE /* BEMCheckBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMCheckBox.xcconfig; sourceTree = "<group>"; };
+		A4F85BB8BC22A62E0DEDE77F4EF530EA /* Pods-StylingRequestViewTestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StylingRequestViewTestUITests-umbrella.h"; sourceTree = "<group>"; };
+		A85A27C26984698BB396FA72BEE78060 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1753A6DACE631B5AB95A056A6253661 /* DLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = DLRadioButton/DLRadioButton.h; sourceTree = "<group>"; };
+		B3F1FF15735D28D88DFC5919D0472D80 /* Pods-StylingRequestViewTestTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StylingRequestViewTestTests-resources.sh"; sourceTree = "<group>"; };
+		B51B8C98004A70A6342F27DA0D731A9E /* Pods-StylingRequestViewTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StylingRequestViewTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BCCD025938087FEE47D36A456753E7E3 /* Pods-StylingRequestViewTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StylingRequestViewTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEF6570A9C6C2E1C74EE34454B24D17B /* Pods-StylingRequestViewTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StylingRequestViewTestUITests-dummy.m"; sourceTree = "<group>"; };
+		C003A8978BB442136A6DB4F09D2D4112 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C172164DCB73743D9FC1A2E985725FF1 /* BEMAnimationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMAnimationManager.h; path = Classes/BEMAnimationManager.h; sourceTree = "<group>"; };
+		C197EFDBEF9C23348DABA0F392E6F12A /* Pods-StylingRequestViewTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StylingRequestViewTest-resources.sh"; sourceTree = "<group>"; };
+		C7B130CA1F1D218C45FB489FF3F94EF7 /* DLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-umbrella.h"; sourceTree = "<group>"; };
+		C80BD7D3E230754038141028465F1E15 /* BEMCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBox.m; path = Classes/BEMCheckBox.m; sourceTree = "<group>"; };
+		D801ABCACDDDD16C5D209EBA73E42130 /* BEMPathManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMPathManager.m; path = Classes/BEMPathManager.m; sourceTree = "<group>"; };
+		DC9A3628A1ACB624CA3E7252897423BF /* Pods-StylingRequestViewTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StylingRequestViewTest-umbrella.h"; sourceTree = "<group>"; };
+		DDB99DB05A631B18438D1388F42929CF /* Pods-StylingRequestViewTestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StylingRequestViewTestUITests-frameworks.sh"; sourceTree = "<group>"; };
+		DDCB109238092573C9A37FE527BA33BE /* DLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLRadioButton.framework; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFC553A26AFD756035496EE2D391FF0 /* BEMCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-prefix.pch"; sourceTree = "<group>"; };
+		E4FA69D059477DCC549D329927D4AE2B /* BEMCheckBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BEMCheckBox.framework; path = BEMCheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E882F1A2FFBB52DC4C9FFA308E81BBD0 /* BEMCheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-umbrella.h"; sourceTree = "<group>"; };
+		F64FF104F49760C646DBF337E4C0170B /* Pods-StylingRequestViewTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StylingRequestViewTest-dummy.m"; sourceTree = "<group>"; };
+		F9C6C4C69C31DE948A87EF65B1AE08AA /* Pods-StylingRequestViewTestUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StylingRequestViewTestUITests-resources.sh"; sourceTree = "<group>"; };
+		FA344BC5B33D786FFCF598CA9D344872 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4FE704DDE7C04B6AA34BD2821DAE01 /* Pods-StylingRequestViewTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StylingRequestViewTest-frameworks.sh"; sourceTree = "<group>"; };
+		FC92F741C85EB56CE78F705DB390F448 /* Pods_StylingRequestViewTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StylingRequestViewTest.framework; path = "Pods-StylingRequestViewTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A2B90C674CFEDBD3D9CA60F494DACA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46AF6AE0CD450A04CB85689A3E4F1B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3EE5C24DBC8CF6E39D136821D9AD7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5448C9373B98358D18337EDBE47DB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E50AB5274904F1FAFA8DD81DD1024B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F6D519422E9833D3237E7D7F3FB7CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A324E81F33CA8363E22E0C427CBC97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6988E28381FCC5D04082DD3969BD03F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8BF4D0DA4B3F7EA06C693E90B7072FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EB71FEC2BEFC367575496304D5360C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06760F2E355461932A07D5C0531A6B84 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DF727FEA8D1AE98E08FFCEA3B063B9A /* BEMCheckBox.modulemap */,
+				9B1C14E9581D80D84B0D0B4367CACFEE /* BEMCheckBox.xcconfig */,
+				6BCEC5DE2F39F82E3A287D392349F46D /* BEMCheckBox-dummy.m */,
+				DEFC553A26AFD756035496EE2D391FF0 /* BEMCheckBox-prefix.pch */,
+				E882F1A2FFBB52DC4C9FFA308E81BBD0 /* BEMCheckBox-umbrella.h */,
+				FA344BC5B33D786FFCF598CA9D344872 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BEMCheckBox";
+			sourceTree = "<group>";
+		};
+		0B10C03CBDA630704B30091EB1106530 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33CD2BBCE39FCDA544151EBDBBD8261A /* DLRadioButton.modulemap */,
+				684CBF172EAD2C5FCBA5CE8F4A35DB83 /* DLRadioButton.xcconfig */,
+				8F95756751F0C081129FD1FA2A14D6DC /* DLRadioButton-dummy.m */,
+				9929D1C4547D2515A96CCC80B4E15F82 /* DLRadioButton-prefix.pch */,
+				C7B130CA1F1D218C45FB489FF3F94EF7 /* DLRadioButton-umbrella.h */,
+				2104FF5F4FF9C5B156661436EC8F8185 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DLRadioButton";
+			sourceTree = "<group>";
+		};
+		1669C575BBB97E3170A9D656B7ED02B7 /* BEMCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				C172164DCB73743D9FC1A2E985725FF1 /* BEMAnimationManager.h */,
+				735D33CC28D38AAF1310062BE7D3CE39 /* BEMAnimationManager.m */,
+				30196B92B0930ADEA404F6946ED9A612 /* BEMCheckBox.h */,
+				C80BD7D3E230754038141028465F1E15 /* BEMCheckBox.m */,
+				173A89D23BD49D26ECB9EEBDCC5C450A /* BEMCheckBoxGroup.h */,
+				8F6D9CCB47F78BCAF0C7A78C9FFDE8A3 /* BEMCheckBoxGroup.m */,
+				7A60655499B239BA192766E144D7B4AD /* BEMPathManager.h */,
+				D801ABCACDDDD16C5D209EBA73E42130 /* BEMPathManager.m */,
+				06760F2E355461932A07D5C0531A6B84 /* Support Files */,
+			);
+			name = BEMCheckBox;
+			path = BEMCheckBox;
+			sourceTree = "<group>";
+		};
+		1812F74AC371AD3BC5CA529FCFD57E98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1669C575BBB97E3170A9D656B7ED02B7 /* BEMCheckBox */,
+				D6E4D6ED0BB71E89261A464FD7F5128D /* DLRadioButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		201AA24C6E20E5FB5D39965084D4690C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4FA69D059477DCC549D329927D4AE2B /* BEMCheckBox.framework */,
+				DDCB109238092573C9A37FE527BA33BE /* DLRadioButton.framework */,
+				FC92F741C85EB56CE78F705DB390F448 /* Pods_StylingRequestViewTest.framework */,
+				568FC149142295E6C2F4AF8A5CCD9371 /* Pods_StylingRequestViewTestTests.framework */,
+				4B9933AACBCA7E533B258ACB09D84E1F /* Pods_StylingRequestViewTestUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EE9C845CCF03B885E86F22254D541B7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36562F7C30B1FD921E38087774E06D8E /* Pods-StylingRequestViewTest */,
+				E48EF49E745A9D6093B3863C95B747C4 /* Pods-StylingRequestViewTestTests */,
+				BA35B9E836156959D74AA094F11CD413 /* Pods-StylingRequestViewTestUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		36562F7C30B1FD921E38087774E06D8E /* Pods-StylingRequestViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				24453BA50845882B8A050B40CB4022C2 /* Info.plist */,
+				94824CCBDB4D359D8CC18CE12F20CEF5 /* Pods-StylingRequestViewTest.modulemap */,
+				B51B8C98004A70A6342F27DA0D731A9E /* Pods-StylingRequestViewTest-acknowledgements.markdown */,
+				34941ACF969B6BC8CA518F0E6CDD5ACD /* Pods-StylingRequestViewTest-acknowledgements.plist */,
+				F64FF104F49760C646DBF337E4C0170B /* Pods-StylingRequestViewTest-dummy.m */,
+				FC4FE704DDE7C04B6AA34BD2821DAE01 /* Pods-StylingRequestViewTest-frameworks.sh */,
+				C197EFDBEF9C23348DABA0F392E6F12A /* Pods-StylingRequestViewTest-resources.sh */,
+				DC9A3628A1ACB624CA3E7252897423BF /* Pods-StylingRequestViewTest-umbrella.h */,
+				3A98A36FFD775943F897974EA3826727 /* Pods-StylingRequestViewTest.debug.xcconfig */,
+				4E268ECBEAF8BB9416FC26D2B6E6FB9C /* Pods-StylingRequestViewTest.release.xcconfig */,
+			);
+			name = "Pods-StylingRequestViewTest";
+			path = "Target Support Files/Pods-StylingRequestViewTest";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1812F74AC371AD3BC5CA529FCFD57E98 /* Pods */,
+				201AA24C6E20E5FB5D39965084D4690C /* Products */,
+				2EE9C845CCF03B885E86F22254D541B7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BA35B9E836156959D74AA094F11CD413 /* Pods-StylingRequestViewTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A85A27C26984698BB396FA72BEE78060 /* Info.plist */,
+				8FF1A7D0D7B6E7D9B3751D36B1C99C7C /* Pods-StylingRequestViewTestUITests.modulemap */,
+				7DE4806C97C5AF775BCC64A70EFD6257 /* Pods-StylingRequestViewTestUITests-acknowledgements.markdown */,
+				91320BDE6139D4886A2BC7784DA50466 /* Pods-StylingRequestViewTestUITests-acknowledgements.plist */,
+				BEF6570A9C6C2E1C74EE34454B24D17B /* Pods-StylingRequestViewTestUITests-dummy.m */,
+				DDB99DB05A631B18438D1388F42929CF /* Pods-StylingRequestViewTestUITests-frameworks.sh */,
+				F9C6C4C69C31DE948A87EF65B1AE08AA /* Pods-StylingRequestViewTestUITests-resources.sh */,
+				A4F85BB8BC22A62E0DEDE77F4EF530EA /* Pods-StylingRequestViewTestUITests-umbrella.h */,
+				65E8CF27C5A75A0A3A7329EBE6B19A4C /* Pods-StylingRequestViewTestUITests.debug.xcconfig */,
+				29DF4787802796910DC859919E1401D4 /* Pods-StylingRequestViewTestUITests.release.xcconfig */,
+			);
+			name = "Pods-StylingRequestViewTestUITests";
+			path = "Target Support Files/Pods-StylingRequestViewTestUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D6E4D6ED0BB71E89261A464FD7F5128D /* DLRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				B1753A6DACE631B5AB95A056A6253661 /* DLRadioButton.h */,
+				59E0CF6FCD3C5080424DECB78CDE2DA3 /* DLRadioButton.m */,
+				0B10C03CBDA630704B30091EB1106530 /* Support Files */,
+			);
+			name = DLRadioButton;
+			path = DLRadioButton;
+			sourceTree = "<group>";
+		};
+		E48EF49E745A9D6093B3863C95B747C4 /* Pods-StylingRequestViewTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C003A8978BB442136A6DB4F09D2D4112 /* Info.plist */,
+				6C8A31F5557850C33B86E85BA687A904 /* Pods-StylingRequestViewTestTests.modulemap */,
+				0B91ECA8D89FB3064733CA1BE27F533B /* Pods-StylingRequestViewTestTests-acknowledgements.markdown */,
+				2A43F9FACB70FDC34A98F832C62B0211 /* Pods-StylingRequestViewTestTests-acknowledgements.plist */,
+				7ECBCBD534AEA502FB65705A4FC15960 /* Pods-StylingRequestViewTestTests-dummy.m */,
+				206FDC0DB84BEDEBAE5CDB5BF2B7A6B0 /* Pods-StylingRequestViewTestTests-frameworks.sh */,
+				B3F1FF15735D28D88DFC5919D0472D80 /* Pods-StylingRequestViewTestTests-resources.sh */,
+				4D2827530FC7D08B8BEBF163108781E8 /* Pods-StylingRequestViewTestTests-umbrella.h */,
+				BCCD025938087FEE47D36A456753E7E3 /* Pods-StylingRequestViewTestTests.debug.xcconfig */,
+				8415FF3B6C62762E1BA33A91ECA65DDD /* Pods-StylingRequestViewTestTests.release.xcconfig */,
+			);
+			name = "Pods-StylingRequestViewTestTests";
+			path = "Target Support Files/Pods-StylingRequestViewTestTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04D99657D5F93D7BF23BAD86C98B4B16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA4BB3491719235D6A6B936A42146FD /* Pods-StylingRequestViewTestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5A578A8DCDE83E08F8420F6E315AE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6EFF0B0B68E348EC94F86BD1F68C04 /* Pods-StylingRequestViewTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220E61F93FBE49E9C3EBBEE5E9331C18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84116DD709725E60919846D7B1AF714B /* DLRadioButton-umbrella.h in Headers */,
+				8F2D8EC348F59816CFDEA65538E3E532 /* DLRadioButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A42790C11BC4D240E79CCF9B68F4CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1FA022C13DDBBB8849FA9E89031086 /* Pods-StylingRequestViewTestUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6027F6767D4F0F08AD5CBCE9E4192827 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F57873BAE949F334DA9D57D020B121 /* BEMAnimationManager.h in Headers */,
+				03BC7C44A0DD8215B92B20511FEABCE1 /* BEMCheckBox-umbrella.h in Headers */,
+				9A8BC36CCD3769C0DCEB4213A5019BB7 /* BEMCheckBox.h in Headers */,
+				AC08ACC8E35090E01239B8163297A0EA /* BEMCheckBoxGroup.h in Headers */,
+				8A6B44636886520707544BC52CCD2ABF /* BEMPathManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		133FDD4EADC36BA627A0A7443E2BD214 /* Pods-StylingRequestViewTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06645A85143B8FCFDE79158FE48D0D24 /* Build configuration list for PBXNativeTarget "Pods-StylingRequestViewTestUITests" */;
+			buildPhases = (
+				4BED97EE38DB8EAD0246FE8A07B51C41 /* Sources */,
+				E8BF4D0DA4B3F7EA06C693E90B7072FE /* Frameworks */,
+				26A42790C11BC4D240E79CCF9B68F4CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-StylingRequestViewTestUITests";
+			productName = "Pods-StylingRequestViewTestUITests";
+			productReference = 4B9933AACBCA7E533B258ACB09D84E1F /* Pods_StylingRequestViewTestUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8B7BF6A19F3312A6D8C93C78C0BD686 /* Pods-StylingRequestViewTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F37CD4A81A423A195D0A752E44459AB /* Build configuration list for PBXNativeTarget "Pods-StylingRequestViewTestTests" */;
+			buildPhases = (
+				0A1DAF95DAD985F4179E3C7E55EA5530 /* Sources */,
+				2A2B90C674CFEDBD3D9CA60F494DACA5 /* Frameworks */,
+				04D99657D5F93D7BF23BAD86C98B4B16 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-StylingRequestViewTestTests";
+			productName = "Pods-StylingRequestViewTestTests";
+			productReference = 568FC149142295E6C2F4AF8A5CCD9371 /* Pods_StylingRequestViewTestTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC19A72FB7D1DB0B2CC5F6C5CF2400F4 /* BEMCheckBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020E578A97CC1DF9DC645C21BD1D2A8D /* Build configuration list for PBXNativeTarget "BEMCheckBox" */;
+			buildPhases = (
+				3166FED8D0EB704FBAF3616D4369ABD7 /* Sources */,
+				3F3EE5C24DBC8CF6E39D136821D9AD7A /* Frameworks */,
+				6027F6767D4F0F08AD5CBCE9E4192827 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BEMCheckBox;
+			productName = BEMCheckBox;
+			productReference = E4FA69D059477DCC549D329927D4AE2B /* BEMCheckBox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6A77E2753C279F67F70C5C21D6FAE15 /* DLRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118FCC60066EF1D7DD17E50B82C12AA4 /* Build configuration list for PBXNativeTarget "DLRadioButton" */;
+			buildPhases = (
+				8F67A4B4F56469850BF8A099A6E12AE8 /* Sources */,
+				A2A324E81F33CA8363E22E0C427CBC97 /* Frameworks */,
+				220E61F93FBE49E9C3EBBEE5E9331C18 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLRadioButton;
+			productName = DLRadioButton;
+			productReference = DDCB109238092573C9A37FE527BA33BE /* DLRadioButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FDD2B2418A779F8F81768D71F491A2BA /* Pods-StylingRequestViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85E78DAE03B19AE92A903A71D8831F54 /* Build configuration list for PBXNativeTarget "Pods-StylingRequestViewTest" */;
+			buildPhases = (
+				90E83EDE176EB96E8A66C3EF7E4A5FF3 /* Sources */,
+				4E50AB5274904F1FAFA8DD81DD1024B4 /* Frameworks */,
+				1E5A578A8DCDE83E08F8420F6E315AE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4440D983CD8C146E6E7451185B4DD4F8 /* PBXTargetDependency */,
+				DAE0A20AC86C2824823D929D92B6FA72 /* PBXTargetDependency */,
+			);
+			name = "Pods-StylingRequestViewTest";
+			productName = "Pods-StylingRequestViewTest";
+			productReference = FC92F741C85EB56CE78F705DB390F448 /* Pods_StylingRequestViewTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 201AA24C6E20E5FB5D39965084D4690C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC19A72FB7D1DB0B2CC5F6C5CF2400F4 /* BEMCheckBox */,
+				F6A77E2753C279F67F70C5C21D6FAE15 /* DLRadioButton */,
+				FDD2B2418A779F8F81768D71F491A2BA /* Pods-StylingRequestViewTest */,
+				B8B7BF6A19F3312A6D8C93C78C0BD686 /* Pods-StylingRequestViewTestTests */,
+				133FDD4EADC36BA627A0A7443E2BD214 /* Pods-StylingRequestViewTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A1DAF95DAD985F4179E3C7E55EA5530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A28F07FAD3EB3AAB9EA8C1F1C9090BA /* Pods-StylingRequestViewTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3166FED8D0EB704FBAF3616D4369ABD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5BB6C5CBF58128AE6C9AA5950F2AB1 /* BEMAnimationManager.m in Sources */,
+				A80BA46B97BD1273DAA97821F4DFB963 /* BEMCheckBox-dummy.m in Sources */,
+				55CF856B8BA12BB2472B08B6D5D9125A /* BEMCheckBox.m in Sources */,
+				20909B18A454E0797F343764AD7FCA11 /* BEMCheckBoxGroup.m in Sources */,
+				3F4B331558094E9EBADCB4BBE25519C0 /* BEMPathManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BED97EE38DB8EAD0246FE8A07B51C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036E416C843D01FB59A128C568926589 /* Pods-StylingRequestViewTestUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F67A4B4F56469850BF8A099A6E12AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7E0B70C0D1CCD0AC694A99E8324ECD /* DLRadioButton-dummy.m in Sources */,
+				EF2F59EEA3194DFCFB39352F4DA16D76 /* DLRadioButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E83EDE176EB96E8A66C3EF7E4A5FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34DF3CEF0E3711DBF0F69C32EE0502A /* Pods-StylingRequestViewTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4440D983CD8C146E6E7451185B4DD4F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BEMCheckBox;
+			target = BC19A72FB7D1DB0B2CC5F6C5CF2400F4 /* BEMCheckBox */;
+			targetProxy = 17DCD9FD9F6F00E871DA080E43AF2C48 /* PBXContainerItemProxy */;
+		};
+		DAE0A20AC86C2824823D929D92B6FA72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLRadioButton;
+			target = F6A77E2753C279F67F70C5C21D6FAE15 /* DLRadioButton */;
+			targetProxy = 04581DF06F454E3C3FCFAABDF5792C92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1457A8631B049858038486315618F833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684CBF172EAD2C5FCBA5CE8F4A35DB83 /* DLRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLRadioButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DLRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		225BDC72A6CF920901BDFF3490CDBC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E8CF27C5A75A0A3A7329EBE6B19A4C /* Pods-StylingRequestViewTestUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StylingRequestViewTestUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StylingRequestViewTestUITests/Pods-StylingRequestViewTestUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StylingRequestViewTestUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2330F3C9A61CEC1DEAAC5804467CC4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCCD025938087FEE47D36A456753E7E3 /* Pods-StylingRequestViewTestTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StylingRequestViewTestTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StylingRequestViewTestTests/Pods-StylingRequestViewTestTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StylingRequestViewTestTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4367F68478524F8952274C7809793774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8415FF3B6C62762E1BA33A91ECA65DDD /* Pods-StylingRequestViewTestTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StylingRequestViewTestTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StylingRequestViewTestTests/Pods-StylingRequestViewTestTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StylingRequestViewTestTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		526BF54858B4A599EDAD973A093FA64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E268ECBEAF8BB9416FC26D2B6E6FB9C /* Pods-StylingRequestViewTest.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StylingRequestViewTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StylingRequestViewTest/Pods-StylingRequestViewTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StylingRequestViewTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A5990B3AC665588F34646060BD32AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29DF4787802796910DC859919E1401D4 /* Pods-StylingRequestViewTestUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StylingRequestViewTestUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StylingRequestViewTestUITests/Pods-StylingRequestViewTestUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StylingRequestViewTestUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		858E8C16C859AF0A0F923A9093AD8419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684CBF172EAD2C5FCBA5CE8F4A35DB83 /* DLRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLRadioButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DLRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F28935F196CD5CCD4449620CFC22C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1C14E9581D80D84B0D0B4367CACFEE /* BEMCheckBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BEMCheckBox/BEMCheckBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEMCheckBox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BEMCheckBox/BEMCheckBox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BEMCheckBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B162286E8E8140E6AC807F3254BA6254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A98A36FFD775943F897974EA3826727 /* Pods-StylingRequestViewTest.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StylingRequestViewTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StylingRequestViewTest/Pods-StylingRequestViewTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StylingRequestViewTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD18B14303C96C2649117E43736D1CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1C14E9581D80D84B0D0B4367CACFEE /* BEMCheckBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BEMCheckBox/BEMCheckBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEMCheckBox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BEMCheckBox/BEMCheckBox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BEMCheckBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		020E578A97CC1DF9DC645C21BD1D2A8D /* Build configuration list for PBXNativeTarget "BEMCheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD18B14303C96C2649117E43736D1CF0 /* Debug */,
+				8F28935F196CD5CCD4449620CFC22C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06645A85143B8FCFDE79158FE48D0D24 /* Build configuration list for PBXNativeTarget "Pods-StylingRequestViewTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225BDC72A6CF920901BDFF3490CDBC67 /* Debug */,
+				5A5990B3AC665588F34646060BD32AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118FCC60066EF1D7DD17E50B82C12AA4 /* Build configuration list for PBXNativeTarget "DLRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858E8C16C859AF0A0F923A9093AD8419 /* Debug */,
+				1457A8631B049858038486315618F833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F37CD4A81A423A195D0A752E44459AB /* Build configuration list for PBXNativeTarget "Pods-StylingRequestViewTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2330F3C9A61CEC1DEAAC5804467CC4DC /* Debug */,
+				4367F68478524F8952274C7809793774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E78DAE03B19AE92A903A71D8831F54 /* Build configuration list for PBXNativeTarget "Pods-StylingRequestViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B162286E8E8140E6AC807F3254BA6254 /* Debug */,
+				526BF54858B4A599EDAD973A093FA64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

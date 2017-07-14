@@ -1,0 +1,15 @@
+PODS:
+  - BEMCheckBox (1.4.0)
+  - DLRadioButton (1.4.9)
+
+DEPENDENCIES:
+  - BEMCheckBox
+  - DLRadioButton (~> 1.4)
+
+SPEC CHECKSUMS:
+  BEMCheckBox: e18e4a148905b290bd03d98b767651c104f4eda3
+  DLRadioButton: 7bb8a6e3768b572469ace553391ab4d2af6f9c19
+
+PODFILE CHECKSUM: ec278ba1f25c6807031507e79fab9952b1077fe3
+
+COCOAPODS: 1.2.1

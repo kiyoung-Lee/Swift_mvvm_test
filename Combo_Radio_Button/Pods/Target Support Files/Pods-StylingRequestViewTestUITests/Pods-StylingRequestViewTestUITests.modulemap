@@ -1,0 +1,6 @@
+framework module Pods_StylingRequestViewTestUITests {
+  umbrella header "Pods-StylingRequestViewTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

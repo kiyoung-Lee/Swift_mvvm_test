@@ -1,0 +1,6 @@
+framework module Pods_StylingRequestViewTest {
+  umbrella header "Pods-StylingRequestViewTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
