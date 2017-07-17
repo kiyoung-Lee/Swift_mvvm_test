@@ -10,9 +10,30 @@ import UIKit
 
 class ViewController: UIViewController {
 
+	@IBOutlet weak var itemView: UIView!
+	
+	var tagList: [String] = ["hello", "world", "hifive", "school", "design", "abracadabrasharlrl", "chcola", "shoese"]
+	
+	var tagListView:TagListView = TagListView(frame: CGRect(x: 9, y: 5, width: 300 , height: 100))
+
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		
+		tagListView.rowHeight = 40
+		tagListView.tagHorizontalPadding = 6
+		tagListView.tagVerticalPadding = 10
+		tagListView.tagCombinedMargin = 25
+		tagListView.labelCornerRadius = 14
+		tagListView.limitRowNumber = 3
+		
+		for tag in tagList {
+			tagListView.addTag(tag, target: self, tapAction: #selector(touch), longPressAction: nil, backgroundColor: UIColor.white, textColor: UIColor.black, font: UIFont.systemFont(ofSize: 14))
+		}
+		self.itemView.addSubview(self.tagListView)
+		
+		//		itemView.isHidden = true
+
 	}
 
 	override func didReceiveMemoryWarning() {
@@ -20,6 +41,9 @@ class ViewController: UIViewController {
 		// Dispose of any resources that can be recreated.
 	}
 
+	func touch(){
+		
+	}
 
 }
 

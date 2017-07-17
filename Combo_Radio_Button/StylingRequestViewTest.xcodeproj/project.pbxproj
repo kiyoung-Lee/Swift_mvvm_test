@@ -20,6 +20,7 @@
 		08AFE91D1F18580600F3C56F /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AFE91C1F18580600F3C56F /* PopupViewController.swift */; };
 		08AFE9201F185E3800F3C56F /* RadioButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AFE91F1F185E3800F3C56F /* RadioButtonController.swift */; };
 		08AFE9221F185ECD00F3C56F /* PopupTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AFE9211F185ECD00F3C56F /* PopupTableCell.swift */; };
+		08AFE98D1F1CF0E200F3C56F /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AFE98C1F1CF0E200F3C56F /* TagListView.swift */; };
 		130A7171CC757E6E3DD5099D /* Pods_StylingRequestViewTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE1CA04F095F1389A78C68 /* Pods_StylingRequestViewTestUITests.framework */; };
 		DF847BB91D79E76FCA2FB37B /* Pods_StylingRequestViewTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D754EC4285F31B0337BCFB /* Pods_StylingRequestViewTestTests.framework */; };
 		EBC0016A27D2D03335A1F917 /* Pods_StylingRequestViewTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833619539905B05FF22BD483 /* Pods_StylingRequestViewTest.framework */; };
@@ -62,6 +63,7 @@
 		08AFE91C1F18580600F3C56F /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 		08AFE91F1F185E3800F3C56F /* RadioButtonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButtonController.swift; sourceTree = "<group>"; };
 		08AFE9211F185ECD00F3C56F /* PopupTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupTableCell.swift; sourceTree = "<group>"; };
+		08AFE98C1F1CF0E200F3C56F /* TagListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
 		2C5D24A013F53499A67591CC /* Pods-StylingRequestViewTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StylingRequestViewTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-StylingRequestViewTest/Pods-StylingRequestViewTest.release.xcconfig"; sourceTree = "<group>"; };
 		7CEB03D86B3CDDDB3DAEB9AF /* Pods-StylingRequestViewTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StylingRequestViewTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StylingRequestViewTestUITests/Pods-StylingRequestViewTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		833619539905B05FF22BD483 /* Pods_StylingRequestViewTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StylingRequestViewTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +141,7 @@
 				08AFE9121F17682300F3C56F /* CancelableView.swift */,
 				08AFE91C1F18580600F3C56F /* PopupViewController.swift */,
 				08AFE9211F185ECD00F3C56F /* PopupTableCell.swift */,
+				08AFE98C1F1CF0E200F3C56F /* TagListView.swift */,
 			);
 			name = StylingRequesetViewTest;
 			path = StylingRequestViewTest;
@@ -486,6 +489,7 @@
 				08AFE8E31F17648200F3C56F /* AppDelegate.swift in Sources */,
 				08AFE91B1F179CA800F3C56F /* RadioButton.swift in Sources */,
 				08AFE9201F185E3800F3C56F /* RadioButtonController.swift in Sources */,
+				08AFE98D1F1CF0E200F3C56F /* TagListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
