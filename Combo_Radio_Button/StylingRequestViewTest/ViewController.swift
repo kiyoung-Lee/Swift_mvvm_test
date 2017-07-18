@@ -7,18 +7,23 @@
 //
 
 import UIKit
+import BEMCheckBox
 
 class ViewController: UIViewController {
 
 	@IBOutlet weak var itemView: UIView!
+	@IBOutlet weak var checkBox: BEMCheckBox!
+	
 	
 	var tagList: [String] = ["hello", "world", "hifive", "school", "design", "abracadabrasharlrl", "chcola", "shoese"]
 	
-	var tagListView:TagListView = TagListView(frame: CGRect(x: 9, y: 5, width: 300 , height: 100))
+	var tagListView:TagListView = TagListView(frame: CGRect(x: 9, y: 5, width: 300 , height: 500))
 
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		
+		self.checkBox.boxType = BEMBoxType.square
 		
 		tagListView.rowHeight = 40
 		tagListView.tagHorizontalPadding = 6

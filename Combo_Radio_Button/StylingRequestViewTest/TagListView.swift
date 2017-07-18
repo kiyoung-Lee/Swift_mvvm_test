@@ -12,7 +12,7 @@ import UIKit
 class TagListView:UIScrollView {
 	var numberOfRows = 0
 	var currentRow = 0
-	var tags = [UILabel]()
+	var tags = [UIView]()
 	var containerView:UIView!
 	
 	var hashtagsOffset:UIEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 0, right: 0)
@@ -56,47 +56,59 @@ class TagListView:UIScrollView {
 		guard currentRow >= limitRowNumber else {
 			//instantiate label
 			//you can customize your label here! but make sure everything fit. Default row height is 30.
-			let label = UILabel()
-			label.layer.cornerRadius = labelCornerRadius
-			label.layer.borderColor = labelBorderColor
-			label.layer.borderWidth = labelBorderWidth
-			label.clipsToBounds = true
-			label.textColor = UIColor.white
-			label.backgroundColor = backgroundColor
-			label.text = text
-			label.textColor = textColor
-			label.font = font
-			label.sizeToFit()
-			label.textAlignment = NSTextAlignment.center
-			self.tags.append(label)
+			
+			let selectItemView: SelectItemView = SelectItemView.instanceFromNib() as! SelectItemView
+			selectItemView.layer.cornerRadius = labelCornerRadius
+			selectItemView.layer.borderColor = labelBorderColor
+			selectItemView.layer.borderWidth = labelBorderWidth
+			selectItemView.clipsToBounds = true
+			selectItemView.label?.textColor = UIColor.white
+			selectItemView.backgroundColor = backgroundColor
+			selectItemView.label?.text = text
+			selectItemView.label?.textColor = textColor
+			selectItemView.label?.font = font
+			selectItemView.label.sizeToFit()
+			selectItemView.label.adjustsFontSizeToFitWidth = true
+			selectItemView.label.textAlignment = .center
+			selectItemView.sizeToFit()
+			selectItemView.label?.textAlignment = NSTextAlignment.center
+			
+			
+			
+			self.tags.append(selectItemView)
 			
 			//process actions
 			if tapAction != nil {
 				let tap = UITapGestureRecognizer(target: target, action: tapAction!)
-				label.isUserInteractionEnabled = true
-				label.addGestureRecognizer(tap)
+				selectItemView.isUserInteractionEnabled = true
+				selectItemView.addGestureRecognizer(tap)
 				
 			}
 			
 			if longPressAction != nil {
 				let longPress = UILongPressGestureRecognizer(target: target, action: longPressAction!)
-				label.addGestureRecognizer(longPress)
+				selectItemView.addGestureRecognizer(longPress)
 			}
 			
 			//calculate frame
-			label.frame = CGRect(x: label.frame.origin.x, y: label.frame.origin.y , width: label.frame.width + tagCombinedMargin, height: rowHeight - tagVerticalPadding)
-			label.layer.borderColor = UIColor.black.cgColor
-			label.layer.borderWidth = 0.5
+			selectItemView.frame = CGRect(x: selectItemView.frame.origin.x, y: selectItemView.frame.origin.y , width: selectItemView.label.frame.width + selectItemView.cancelButton.frame.width + 10 , height: rowHeight - tagVerticalPadding)
+			
+			selectItemView.cancelButton.frame = CGRect(x: selectItemView.label.frame.maxX , y: selectItemView.frame.minY - 1, width: 20, height: rowHeight - tagVerticalPadding)
+			
+			selectItemView.layer.borderColor = UIColor.black.cgColor
+			selectItemView.layer.borderWidth = 0.5
 			if self.tags.count == 0 {
-				label.frame = CGRect(x: hashtagsOffset.left, y: hashtagsOffset.top, width: label.frame.width, height: label.frame.height)
-				self.addSubview(label)
+				selectItemView.frame = CGRect(x: hashtagsOffset.left, y: hashtagsOffset.top, width: selectItemView.frame.width, height: selectItemView.frame.height)
+				self.addSubview(selectItemView)
 			}else {
 				
-				label.frame = self.generateFrameAtIndex(tags.count-1, rowNumber: &currentRow)
+				selectItemView.frame = self.generateFrameAtIndex(tags.count-1, rowNumber: &currentRow)
 				
 				if currentRow < limitRowNumber {
-					self.addSubview(label)
-					label.tag = tags.count
+					
+//					selectItemView.frame = self.frame
+					self.addSubview(selectItemView)
+					selectItemView.tag = tags.count
 				}
 				
 			}
@@ -138,9 +150,9 @@ class TagListView:UIScrollView {
 	
 	func removeTagWithName(_ name:String) {
 		for (index,tag) in tags.enumerated() {
-			if tag.text! == name {
-				removeTagWithIndex(index)
-			}
+//			if tag.label.text! == name {
+//				removeTagWithIndex(index)
+//			}
 		}
 	}
 	
