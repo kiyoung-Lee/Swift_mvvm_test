@@ -56,6 +56,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="+"/>
+                                <connections>
+                                    <segue destination="W4K-db-Fr1" kind="show" id="EOC-9l-vQ8"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kYe-Ne-1rU" customClass="BEMCheckBox">
                                 <rect key="frame" x="47" y="360" width="198" height="90"/>
@@ -199,6 +202,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1gz-oR-ESj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="930" y="147"/>
+        </scene>
+        <!--Selected View Controller-->
+        <scene sceneID="egx-eg-War">
+            <objects>
+                <viewController id="W4K-db-Fr1" customClass="SelectedViewController" customModule="StylingRequestViewTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lp3-dg-3Ld"/>
+                        <viewControllerLayoutGuide type="bottom" id="duG-5x-IzO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dj4-3T-3bo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iT9-1b-M4z">
+                                <rect key="frame" x="25" y="58" width="327" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="tempView" destination="iT9-1b-M4z" id="xxm-Nq-W42"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vDq-rW-YO2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="932" y="811.84407796101959"/>
         </scene>
         <!--Popup View Controller-->
         <scene sceneID="zJI-Cw-0go">
