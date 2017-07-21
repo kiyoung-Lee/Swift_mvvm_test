@@ -82,6 +82,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FuN-76-M2p">
+                                <rect key="frame" x="293" y="360" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="ppI-Cj-0pt" kind="show" id="mXr-w8-lRQ"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erE-ua-9NN">
                                 <rect key="frame" x="309" y="88" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -203,6 +211,62 @@
             </objects>
             <point key="canvasLocation" x="930" y="147"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="w6W-uM-JsW">
+            <objects>
+                <viewController id="ppI-Cj-0pt" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iCY-OL-bON"/>
+                        <viewControllerLayoutGuide type="bottom" id="5qC-TK-cTf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cby-J8-oNB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="55l-KG-K4Q">
+                                <rect key="frame" x="0.0" y="28" width="375" height="203"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CCF-0L-tre">
+                                        <rect key="frame" x="0.0" y="8" width="375" height="1000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbI-or-Ij6">
+                                                <rect key="frame" x="37" y="576" width="42" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="Njh-CH-lsw"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="CCF-0L-tre" firstAttribute="top" secondItem="55l-KG-K4Q" secondAttribute="top" constant="8" id="E0z-NS-6bZ"/>
+                                    <constraint firstItem="CCF-0L-tre" firstAttribute="centerX" secondItem="55l-KG-K4Q" secondAttribute="centerX" id="I0u-ZW-4rw"/>
+                                    <constraint firstAttribute="trailing" secondItem="CCF-0L-tre" secondAttribute="trailing" id="Rb9-lQ-c5c"/>
+                                    <constraint firstItem="CCF-0L-tre" firstAttribute="leading" secondItem="55l-KG-K4Q" secondAttribute="leading" id="hor-mq-ok6"/>
+                                    <constraint firstAttribute="bottom" secondItem="CCF-0L-tre" secondAttribute="bottom" id="qeR-r6-Urh"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="55l-KG-K4Q" secondAttribute="trailing" id="Heq-O9-OSc"/>
+                            <constraint firstItem="55l-KG-K4Q" firstAttribute="leading" secondItem="Cby-J8-oNB" secondAttribute="leading" id="KNO-wB-sWE"/>
+                            <constraint firstItem="5qC-TK-cTf" firstAttribute="top" secondItem="55l-KG-K4Q" secondAttribute="bottom" constant="436" id="rcX-Gg-ZeY"/>
+                            <constraint firstItem="55l-KG-K4Q" firstAttribute="top" secondItem="iCY-OL-bON" secondAttribute="bottom" constant="8" id="usJ-Xd-ESB"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A0s-0E-Vdd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="811.84407796101959"/>
+        </scene>
         <!--Selected View Controller-->
         <scene sceneID="egx-eg-War">
             <objects>
@@ -215,8 +279,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RXZ-6T-qtJ">
+                                <rect key="frame" x="25" y="239" width="334" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iT9-1b-M4z">
-                                <rect key="frame" x="25" y="58" width="327" height="128"/>
+                                <rect key="frame" x="29" y="28" width="327" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
